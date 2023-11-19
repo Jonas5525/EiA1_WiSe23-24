@@ -1,23 +1,32 @@
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body, html {
+    height: 100%;
     margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Zentriert den Inhalt vertikal und horizontal */
     text-align: center;
     background: linear-gradient(to bottom, #ffccff, #ffffff);
 }
 
-div {
-    width: 80%;
-    font-size: 1.2em;
-    font-weight: bold;
+.main-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 80%; /* Definiert die Breite des zentralen Inhalts */
 }
 
+div {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* ... Ihr bestehender Stil für den Footer ... */
+
+/* Stil für den Footer */
 footer {
-    position: fixed;
-    bottom: 0;
     width: 100%;
     background-color: #f3f3f3;
     color: #333;
