@@ -1,0 +1,32 @@
+/* Stil für den gesamten Body */
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #ffccff, #ffffff);
+    position: relative;
+    min-height: 100vh; /* Stellt sicher, dass der Body mindestens die Höhe des Viewports hat */
+    overflow: hidden; /* Verhindert das Scrollen */
+}
+
+/* Stil für den Hauptinhalt */
+div {
+    position: absolute; /* Absolute Positionierung innerhalb des relativen Body-Elements */
+    top: 50%; /* Positioniert den Inhalt in der Mitte des Bildschirms */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Zentriert den Inhalt genau in der Mitte */
+    width: 80%; /* Breite des Inhalts */
+    font-size: 1.5em; /* Vergrößert die Schrift */
+    font-weight: 600; /* Erhöht die Schriftstärke für einen kräftigeren Text */
+    text-align: center; /* Zentriert den Text innerhalb der Divs */
+    line-height: 1.1; /* Verringert den Abstand zwischen den Zeilen */
+}
+
+/* Stil für den Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f3f3f3;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+}

@@ -20,7 +20,7 @@
     <div id="middle3">Der Wendepunkt: Der Held erleidet einen schweren Verlust, der sein Verständnis der Reise und seines Zwecks verändert.</div>
 
     <div id="outro1">Die letzte Konfrontation: Der Held steht seinem größten Feind gegenüber und nutzt all sein erlerntes Wissen und seine Stärken.</div>
-    <div id="outro2">Die Heimkehr: Der Held kehrt zurück, aber seine Welt hat sich verändert und er sieht sie jetzt anders.</div>
+    <div id="outro2">Die Heimkehr: Der Held kehrt zurück, aber seine Welt hat sich verändert, oder er sieht sie jetzt anders.</div>
     <div id="outro3">Das neue Leben: Der Held beginnt ein neues Kapitel in seinem Leben, geprägt von den Erfahrungen der Reise.</div>
 
 <footer>275861 Jonas Bausch</footer>
